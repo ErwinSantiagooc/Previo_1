@@ -22,7 +22,7 @@ aside {
     justify-content: space-between;
 }
 
-.footer-izq {
+.footer-izq, .footer-der {
     flex: 1;
     padding: 20px;
     min-height: 80px;
@@ -39,9 +39,6 @@ aside {
 li {
     margin-bottom: 10px;
 }
-.footer-der {
-    min-height: 80px;
-}
 
 .container-log-ti {
     display: flex;
@@ -56,6 +53,16 @@ li {
 .tituloo {
     text-align: center;
     font-size: 2.5em;
+}
+
+.footer-der-text {
+    max-height: 5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
