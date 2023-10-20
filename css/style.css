@@ -16,24 +16,48 @@ aside {
     flex: 1;
     min-height: 400px;
 }
-footer {
-    flex: 1;
-    min-height: 80px;
 
+.footer-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-izq {
+    flex: 1;
+    padding: 20px;
+    min-height: 80px;
+    text-align: center;
+}
+.contac {
+    font-size: 1.5 em;
+    font-weight: bold;
+}
+.listt {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+.footer-der {
+    min-height: 80px;
 }
 
 .container-log-ti {
     display: flex;
     align-items: center;
 }
+
 .logoo {
     width: 60px;
     height: 60px;
 }
+
 .tituloo {
     text-align: center;
     font-size: 2.5em;
 }
+
 @media (max-width: 768px) {
     body {
         flex-direction: column;
