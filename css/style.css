@@ -7,7 +7,6 @@ body {
 }
 header {
     min-height: 120px;
-    background-color: #6490f5;
 }
 main {
     flex: 3;
@@ -23,6 +22,18 @@ footer {
 
 }
 
+.container-log-ti {
+    display: flex;
+    align-items: center;
+}
+.logoo {
+    width: 60px;
+    height: 60px;
+}
+.tituloo {
+    text-align: center;
+    font-size: 2.5em;
+}
 @media (max-width: 768px) {
     body {
         flex-direction: column;
@@ -32,3 +43,4 @@ footer {
         flex: 1;
     }
 }
+
