@@ -3,14 +3,17 @@ body {
     margin: 0 auto;
     padding: 20px;
     display: flex;
+    flex-direction: column;
 
 }
 header {
     min-height: 120px;
+    align-content: center;
 }
 main {
     flex: 3;
-
+    margin: 5px 5px 10px;
+    margin-top: auto;
 }
 aside {
     flex: 1;
@@ -20,6 +23,7 @@ aside {
 .footer-cont {
     display: flex;
     justify-content: space-between;
+    margin-top: auto;
 }
 
 .footer-izq, .footer-der {
@@ -65,13 +69,49 @@ li {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    body {
-        flex-direction: column;
-    }
 
-    main, aside {
-        flex: 1;
-    }
+
+
+.main-content {
+    margin: 0 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mcc {
+    column-count: 2;
+    column-gap: 5px;
+}
+.column-container {
+    display: flex;
 }
 
+.column {
+    flex: 1;
+}
+.ccc {
+    column-count: 3;
+    column-gap: 5px;
+}
+h2 {
+    margin: 0 0 10px;
+}
+.imgg {
+    margin: 0 5px 0 0;
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.ppp {
+    margin: 0;
+}
+.section {
+    display: inline-block;
+    width: calc(33.33% - 5px);
+    margin: 0 5px;
+    vertical-align: top;
+}
+h3 {
+    margin: 0 0 5px;
+}
